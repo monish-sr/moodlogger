@@ -4,7 +4,7 @@ MoodLogger is a Java-based command-line application that allows users to log the
 ## Project Overview
 MoodLogger is a Java-based command-line application that enables users to log their daily moods, review previous entries, and save their emotional records to a text file. Designed with simplicity and mental wellness in mind, the app provides a user-friendly menu-driven interface for emotional journaling. Each entry is timestamped using Java’s Date-Time API, stored dynamically with ArrayList, and written to file using File I/O operations. Built using object-oriented principles, MoodLogger serves as a personal reflection tool while showcasing foundational Java programming skills like class design, input handling, and persistent storage.
 
-## Methdologies
+## Methodologies
 The methodology for the MoodLogger project involves designing a user-interactive, menu-driven command-line interface using Java. It follows object-oriented principles to encapsulate mood entry data such as timestamp and user notes. The system utilizes ArrayList for dynamic storage of multiple mood logs during runtime. Each entry is time-stamped using Java's LocalDateTime and formatted with DateTimeFormatter for readability. User input is handled using the Scanner class, and entries can be saved persistently to a .txt file through FileWriter. This approach ensures modular code design, efficient in-memory data handling, and long-term storage for personal emotional tracking.
 
 1. **Object-Oriented Programming (OOP):**
