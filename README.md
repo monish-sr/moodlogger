@@ -13,13 +13,16 @@ The methodology for the MoodLogger project involves designing a user-interactive
    
     • ArrayList is used to store multiple entries dynamically.
 
-3. **User Interaction (Menu Driven):**
+2. **User Interaction (Menu Driven):**
+ 
     • Options: Add entry, view entries, save to file, and exit.
 
-4. **Data Persistence:**
+3. **Data Persistence:**
+ 
     • Uses FileWriter to save all entries to a .txt file.
 
-5. **Date-Time Handling:**
+4. **Date-Time Handling:**
+
     • Uses LocalDateTime and DateTimeFormatter for timestamps.
 
 ## Analysis
