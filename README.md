@@ -9,15 +9,16 @@ The methodology for the MoodLogger project involves designing a user-interactive
 
 1. **Object-Oriented Programming (OOP):**
     • Class input stores mood data (date, time, and message).
+   
     • ArrayList is used to store multiple entries dynamically.
 
-2. **User Interaction (Menu Driven):**
+3. **User Interaction (Menu Driven):**
     • Options: Add entry, view entries, save to file, and exit.
 
-3. **Data Persistence:**
+4. **Data Persistence:**
     • Uses FileWriter to save all entries to a .txt file.
 
-4. **Date-Time Handling:**
+5. **Date-Time Handling:**
     • Uses LocalDateTime and DateTimeFormatter for timestamps.
 
 ## Analysis
